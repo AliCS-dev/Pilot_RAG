@@ -1,0 +1,35 @@
+# Core ML & Transformers
+torch
+transformers
+accelerate
+
+# LangChain for RAG
+langchain
+langchain-community
+
+# Document Processing
+pymupdf
+python-dotenv
+sentencepiece
+
+# Embeddings & Vector Store
+sentence-transformers
+chromadb
+faiss-cpu
+
+# Hugging Face Hub
+huggingface-hub
+
+# HTTP requests
+requests
+
+# Utilities
+tiktoken
+numpy
+
+# Optional
+bitsandbytes        # For quantization if the GPU is not so powerful
+
+# For alternative PDF processing  
+pdfplumber
+pypdf
