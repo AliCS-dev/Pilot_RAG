@@ -1,3 +1,6 @@
+#GPU
+Nvidia RTX 3050 VRAM= 4GB
+
 # Core ML & Transformers
 torch
 transformers
