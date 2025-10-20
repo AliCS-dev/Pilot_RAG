@@ -16,6 +16,5 @@ def embed_texts(texts: list[str]) -> np.ndarray:
     return embeddings
 
 
-# ---- TEST ----
-    print(embed_texts(["I love AI"]).shape)
+
     
