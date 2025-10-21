@@ -16,7 +16,7 @@ def main():
     print("Building FAISS index ....")
     index = build_faiss_index(embeddings)
 
-    print("Loading Mistreal.....")
+    print("Loading Microsoft PH.....")
     generator = load_generator()
 
     print("Loading LLamaa ............")
@@ -38,7 +38,7 @@ def main():
 
 
         verified = verify_answer(verifier,context,q,answer)
-        print("\n LLama double check the answers of Mistral: ",verified,"\n")
+        print("\n LLama double check the answers of Mic. PH: ",verified,"\n")
 
 if __name__ == "__main__":
     main()
