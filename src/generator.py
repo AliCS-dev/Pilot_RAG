@@ -17,4 +17,4 @@ def load_generator():
 def generate_answer(pipe, context, question):
     prompt = f"Use the context to answer the question. \n\nContext: \n{context}\n\nQuestion: {question}\nAnswer:"
     out = pipe(prompt, max_new_tokens = 150, do_sample= False)
-    return out[0]["generated_text"]q
+    return out[0]["generated_text"]
