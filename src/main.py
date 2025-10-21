@@ -34,7 +34,7 @@ def main():
         context = "\n\n".join([texts[i] for i in ids])
 
         answer = generate_answer(generator,context,q)
-        print("\n Mistreal Answer:\n",answer)
+        print("\n Ph-2 answer:\n",answer)
 
 
         verified = verify_answer(verifier,context,q,answer)
